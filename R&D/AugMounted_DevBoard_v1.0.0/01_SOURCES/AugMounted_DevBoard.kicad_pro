@@ -455,6 +455,14 @@
     [
       "a7e357a9-82a1-4b8d-acf0-65ce824c3be5",
       "MCU"
+    ],
+    [
+      "6b3ccab7-1d72-4b3b-87ab-dbb6a1539255",
+      "Battery Management"
+    ],
+    [
+      "a5fd713b-0eff-4c6e-9443-f8836b4c4660",
+      "OLED"
     ]
   ],
   "text_variables": {
