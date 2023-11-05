@@ -1,0 +1,44 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 75b08848-9393-425e-a17d-60105119a7b1)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text "${PCB name}" (at 186.69 190.5 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 16e53270-5e9b-47bd-87d4-4792030a6634)
+  )
+  (text "${Date}" (at 207.01 194.31 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 975c72b8-3cfd-4aad-aca8-2a4f3bc4fc5e)
+  )
+  (text "${Version}" (at 269.24 194.31 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid dd5f69ba-14a1-47a5-9fe3-a0c16c0cdad9)
+  )
+
+  (sheet (at 163.83 41.91) (size 59.69 58.42) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid a7e357a9-82a1-4b8d-acf0-65ce824c3be5)
+    (property "Sheetname" "MCU" (at 163.83 41.1984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "MCU.kicad_sch" (at 163.83 100.9146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "AugMounted_DevBoard"
+        (path "/75b08848-9393-425e-a17d-60105119a7b1" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
