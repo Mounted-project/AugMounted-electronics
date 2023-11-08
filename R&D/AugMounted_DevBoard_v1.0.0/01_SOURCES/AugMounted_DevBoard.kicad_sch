@@ -38,11 +38,11 @@
     )
   )
 
-  (sheet (at 223.52 80.01) (size 24.13 24.13) (fields_autoplaced)
+  (sheet (at 223.52 13.97) (size 35.56 90.17) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid a5fd713b-0eff-4c6e-9443-f8836b4c4660)
-    (property "Sheetname" "OLED" (at 223.52 79.2984 0)
+    (property "Sheetname" "OLED" (at 223.52 13.2584 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Sheetfile" "OLED.kicad_sch" (at 223.52 104.7246 0)
