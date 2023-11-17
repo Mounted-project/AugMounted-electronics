@@ -14831,7 +14831,7 @@
   (symbol (lib_id ".mounted-lib:C_0603_100nF_100V_X7R_10%") (at 143.51 254 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 029b9b39-f4e9-4bc0-9fac-b582c6baed1b)
-    (property "Reference" "C33" (at 146.05 252.7363 0)
+    (property "Reference" "C?" (at 146.05 252.7363 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C_0603_100nF_100V_X7R_10%" (at 160.02 237.49 0)
@@ -14899,10 +14899,10 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1"
-          (reference "C33") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "C31") (unit 1)
+          (reference "C307") (unit 1)
         )
       )
     )
@@ -14911,7 +14911,7 @@
   (symbol (lib_id "power:GND") (at 196.85 218.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 038b171b-328a-426f-97f3-67411317cb36)
-    (property "Reference" "#PWR067" (at 196.85 224.79 0)
+    (property "Reference" "#PWR0330" (at 196.85 224.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 196.85 223.52 0)
@@ -14927,7 +14927,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "#PWR067") (unit 1)
+          (reference "#PWR0330") (unit 1)
         )
       )
     )
@@ -14936,7 +14936,7 @@
   (symbol (lib_id "power:GND") (at 367.03 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 08faaffb-4db6-4ded-b282-bdeb654d1539)
-    (property "Reference" "#PWR032" (at 367.03 166.37 0)
+    (property "Reference" "#PWR?" (at 367.03 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 367.03 165.1 0)
@@ -14952,10 +14952,10 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/a5fd713b-0eff-4c6e-9443-f8836b4c4660"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "#PWR075") (unit 1)
+          (reference "#PWR0345") (unit 1)
         )
       )
     )
@@ -14964,7 +14964,7 @@
   (symbol (lib_id ".mounted-lib:D_V2FM10HM3{slash}H") (at 322.58 134.62 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 09c20c15-cadd-4fb1-8fb5-e615949a9eee)
-    (property "Reference" "D2" (at 322.834 128.27 0)
+    (property "Reference" "D?" (at 322.834 128.27 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_V2FM10HM3/H" (at 306.07 151.13 0)
@@ -15029,10 +15029,10 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/a5fd713b-0eff-4c6e-9443-f8836b4c4660"
-          (reference "D2") (unit 1)
+          (reference "D?") (unit 1)
         )
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "D2") (unit 1)
+          (reference "D303") (unit 1)
         )
       )
     )
@@ -15041,7 +15041,7 @@
   (symbol (lib_id ".mounted-lib:R_0603_10k_1%_0.1W") (at 90.17 194.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0d414fb4-58e9-4867-bb01-8fb37557530f)
-    (property "Reference" "R14" (at 92.71 193.04 0)
+    (property "Reference" "R302" (at 92.71 193.04 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R_0603_10k_1%_0.1W" (at 106.68 177.8 0)
@@ -15106,7 +15106,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "R14") (unit 1)
+          (reference "R302") (unit 1)
         )
       )
     )
@@ -15115,7 +15115,7 @@
   (symbol (lib_id ".mounted-lib:L_7447789003") (at 303.53 123.19 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0fc26c0d-dd08-4a9f-b3d2-e0d781d4f7d6)
-    (property "Reference" "L1" (at 303.53 118.11 90)
+    (property "Reference" "L?" (at 303.53 118.11 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "L_7447789003" (at 285.115 106.68 0)
@@ -15198,10 +15198,10 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/a5fd713b-0eff-4c6e-9443-f8836b4c4660"
-          (reference "L1") (unit 1)
+          (reference "L?") (unit 1)
         )
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "L1") (unit 1)
+          (reference "L303") (unit 1)
         )
       )
     )
@@ -15210,7 +15210,7 @@
   (symbol (lib_id "power:GND") (at 135.89 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 111efb9c-a5b3-4262-b8b1-34ab646e6085)
-    (property "Reference" "#PWR081" (at 135.89 83.82 0)
+    (property "Reference" "#PWR0321" (at 135.89 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 135.89 82.55 0)
@@ -15226,12 +15226,12 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "#PWR081") (unit 1)
+          (reference "#PWR0321") (unit 1)
         )
       )
       (project "prototype"
         (path "/d09addc5-2e9b-49ac-8978-698ca395ad74"
-          (reference "#PWR0105") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -15240,7 +15240,7 @@
   (symbol (lib_id ".mounted-lib:Q_BSS123WQ-7-F") (at 281.94 219.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 14e6084f-93e3-4fa9-8200-90d2eab75aed)
-    (property "Reference" "Q5" (at 288.29 218.44 0)
+    (property "Reference" "Q303" (at 288.29 218.44 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Q_BSS123WQ-7-F" (at 297.18 209.55 0)
@@ -15318,7 +15318,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "Q5") (unit 1)
+          (reference "Q303") (unit 1)
         )
       )
     )
@@ -15327,7 +15327,7 @@
   (symbol (lib_id "power:GND") (at 66.04 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 165059d7-7274-432d-b650-19ee6bd431e2)
-    (property "Reference" "#PWR030" (at 66.04 63.5 0)
+    (property "Reference" "#PWR?" (at 66.04 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 66.04 62.23 0)
@@ -15343,10 +15343,10 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/a5fd713b-0eff-4c6e-9443-f8836b4c4660"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR0305") (unit 1)
         )
       )
     )
@@ -15355,7 +15355,7 @@
   (symbol (lib_id "power:GND") (at 292.1 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 17d40e79-f1af-4f2e-9815-c2aca699afc9)
-    (property "Reference" "#PWR032" (at 292.1 161.29 0)
+    (property "Reference" "#PWR?" (at 292.1 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 292.1 160.02 0)
@@ -15371,10 +15371,10 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/a5fd713b-0eff-4c6e-9443-f8836b4c4660"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR0337") (unit 1)
         )
       )
     )
@@ -15383,7 +15383,7 @@
   (symbol (lib_id ".mounted-lib:C_0603_1.2nF_100V_X7R_5%") (at 321.31 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 17da747b-a921-40e3-8994-4958c465a433)
-    (property "Reference" "C27" (at 323.85 151.1363 0)
+    (property "Reference" "C?" (at 323.85 151.1363 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C_0603_1.2nF_100V_X7R_5%" (at 337.82 135.89 0)
@@ -15451,10 +15451,10 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/a5fd713b-0eff-4c6e-9443-f8836b4c4660"
-          (reference "C27") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "C22") (unit 1)
+          (reference "C318") (unit 1)
         )
       )
     )
@@ -15463,7 +15463,7 @@
   (symbol (lib_id "power:+3.3V") (at 207.01 245.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 18814936-8c67-4164-9e57-5ad4abd0674a)
-    (property "Reference" "#PWR047" (at 207.01 248.92 0)
+    (property "Reference" "#PWR?" (at 207.01 248.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 207.01 240.03 0)
@@ -15479,10 +15479,10 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR0333") (unit 1)
         )
       )
     )
@@ -15491,7 +15491,7 @@
   (symbol (lib_id ".mounted-lib:C_1206_10uF_25V_X7R_10%") (at 337.82 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 19ea32b0-6f88-4a81-9f76-af9177a7a417)
-    (property "Reference" "C23" (at 351.79 143.51 0)
+    (property "Reference" "C?" (at 351.79 143.51 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C_1206_10uF_25V_X7R_10%" (at 354.33 126.365 0)
@@ -15559,10 +15559,10 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/a5fd713b-0eff-4c6e-9443-f8836b4c4660"
-          (reference "C23") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "C23") (unit 1)
+          (reference "C319") (unit 1)
         )
       )
     )
@@ -15571,7 +15571,7 @@
   (symbol (lib_id ".mounted-lib:J_JST_S2B-PH-SM4-TB") (at 50.8 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1a057db2-c824-4727-b485-290ebf4a8ef7)
-    (property "Reference" "J3" (at 57.15 109.22 0)
+    (property "Reference" "J301" (at 57.15 109.22 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "J_JST_S2B-PH-SM4-TB" (at 91.44 100.33 0)
@@ -15638,7 +15638,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "J3") (unit 1)
+          (reference "J301") (unit 1)
         )
       )
     )
@@ -15647,7 +15647,7 @@
   (symbol (lib_id "power:GND") (at 303.53 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1a339e44-0dcc-40e0-adb4-884057521987)
-    (property "Reference" "#PWR037" (at 303.53 161.29 0)
+    (property "Reference" "#PWR?" (at 303.53 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 303.53 160.02 0)
@@ -15663,10 +15663,10 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/a5fd713b-0eff-4c6e-9443-f8836b4c4660"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR0338") (unit 1)
         )
       )
     )
@@ -15675,7 +15675,7 @@
   (symbol (lib_id "power:GND") (at 170.18 198.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1ae94068-63e1-4d74-9d9b-8a72347c81ea)
-    (property "Reference" "#PWR070" (at 170.18 204.47 0)
+    (property "Reference" "#PWR0326" (at 170.18 204.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 170.18 203.2 0)
@@ -15691,7 +15691,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "#PWR070") (unit 1)
+          (reference "#PWR0326") (unit 1)
         )
       )
     )
@@ -15700,7 +15700,7 @@
   (symbol (lib_id ".mounted-lib:R_0603_100k_1%_0.1W") (at 307.34 181.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 27f0feb5-29cd-444a-86e0-836c21964bc7)
-    (property "Reference" "R10" (at 309.88 180.34 0)
+    (property "Reference" "R314" (at 309.88 180.34 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R_0603_100k_1%_0.1W" (at 323.85 165.1 0)
@@ -15765,7 +15765,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "R10") (unit 1)
+          (reference "R314") (unit 1)
         )
       )
     )
@@ -15774,7 +15774,7 @@
   (symbol (lib_id ".mounted-lib:R_0603_100k_1%_0.1W") (at 271.78 223.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 282d35fe-70d9-48d5-9307-c4b4bc2812c8)
-    (property "Reference" "R21" (at 273.05 222.25 0)
+    (property "Reference" "R310" (at 273.05 222.25 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R_0603_100k_1%_0.1W" (at 288.29 207.01 0)
@@ -15839,7 +15839,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "R21") (unit 1)
+          (reference "R310") (unit 1)
         )
       )
     )
@@ -15848,7 +15848,7 @@
   (symbol (lib_id ".mounted-lib:U_MAX17048G+T10") (at 132.08 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 28ebb8ed-7f4e-4bdf-a04e-1c959601f95c)
-    (property "Reference" "U3" (at 132.08 107.95 0)
+    (property "Reference" "U302" (at 132.08 107.95 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "U_MAX17048G+T10" (at 172.72 106.68 0)
@@ -15920,7 +15920,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "U3") (unit 1)
+          (reference "U302") (unit 1)
         )
       )
     )
@@ -15929,7 +15929,7 @@
   (symbol (lib_id ".mounted-lib:C_0805_10uF_10V_X7R_10%") (at 133.35 254 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 29a97894-b23c-4f19-89c0-70ddeb30bbc6)
-    (property "Reference" "C32" (at 135.89 252.7363 0)
+    (property "Reference" "C?" (at 135.89 252.7363 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C_0805_10uF_10V_X7R_10%" (at 149.86 237.49 0)
@@ -15997,10 +15997,10 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1"
-          (reference "C32") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "C28") (unit 1)
+          (reference "C306") (unit 1)
         )
       )
     )
@@ -16009,7 +16009,7 @@
   (symbol (lib_id ".mounted-lib:C_1206_10uF_25V_X7R_10%") (at 337.82 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2b146f67-6d9e-4967-ae6f-58a0f5a3d030)
-    (property "Reference" "C20" (at 340.36 143.5163 0)
+    (property "Reference" "C?" (at 340.36 143.5163 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C_1206_10uF_25V_X7R_10%" (at 354.33 126.365 0)
@@ -16077,10 +16077,10 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/a5fd713b-0eff-4c6e-9443-f8836b4c4660"
-          (reference "C20") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "C24") (unit 1)
+          (reference "C320") (unit 1)
         )
       )
     )
@@ -16089,7 +16089,7 @@
   (symbol (lib_id ".mounted-lib:Q_BSS123WQ-7-F") (at 316.23 201.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2b646394-e116-45c1-a559-adf833444325)
-    (property "Reference" "Q2" (at 322.58 200.66 0)
+    (property "Reference" "Q304" (at 322.58 200.66 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Q_BSS123WQ-7-F" (at 331.47 191.77 0)
@@ -16167,7 +16167,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "Q2") (unit 1)
+          (reference "Q304") (unit 1)
         )
       )
     )
@@ -16176,7 +16176,7 @@
   (symbol (lib_id "power:+1V8") (at 93.98 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2c2b1369-2877-4dc5-86d8-a9cc855a7891)
-    (property "Reference" "#PWR073" (at 93.98 45.72 0)
+    (property "Reference" "#PWR?" (at 93.98 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 93.98 36.83 0)
@@ -16192,10 +16192,10 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/a5fd713b-0eff-4c6e-9443-f8836b4c4660"
-          (reference "#PWR073") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "#PWR074") (unit 1)
+          (reference "#PWR0312") (unit 1)
         )
       )
     )
@@ -16204,7 +16204,7 @@
   (symbol (lib_id ".mounted-lib:R_0603_200k_1%_0.1W") (at 330.2 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2e287762-d7e6-467c-adbf-a0b9f4c088bb)
-    (property "Reference" "R5" (at 332.74 138.43 0)
+    (property "Reference" "R?" (at 332.74 138.43 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R_0603_200k_1%_0.1W" (at 347.345 121.285 0)
@@ -16269,10 +16269,10 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/a5fd713b-0eff-4c6e-9443-f8836b4c4660"
-          (reference "R5") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "R5") (unit 1)
+          (reference "R317") (unit 1)
         )
       )
     )
@@ -16281,7 +16281,7 @@
   (symbol (lib_id ".mounted-lib:RT_TX06F103F3435ER") (at 171.45 213.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2fc4b06e-6bf1-4e95-8fdf-cf89b4a18d31)
-    (property "Reference" "RT1" (at 173.99 212.09 0)
+    (property "Reference" "RT301" (at 173.99 212.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "RT_TX06F103F3435ER" (at 187.96 196.85 0)
@@ -16352,7 +16352,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "RT1") (unit 1)
+          (reference "RT301") (unit 1)
         )
       )
     )
@@ -16361,7 +16361,7 @@
   (symbol (lib_id "power:GND") (at 204.47 269.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3023b976-eb17-4ea8-b5c9-86fb39f17e02)
-    (property "Reference" "#PWR046" (at 204.47 275.59 0)
+    (property "Reference" "#PWR?" (at 204.47 275.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 204.47 274.32 0)
@@ -16377,10 +16377,10 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR0331") (unit 1)
         )
       )
     )
@@ -16389,7 +16389,7 @@
   (symbol (lib_id "power:GND") (at 69.85 218.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 318482d2-bf63-4616-a545-77cfa3a6c51f)
-    (property "Reference" "#PWR061" (at 69.85 224.79 0)
+    (property "Reference" "#PWR0308" (at 69.85 224.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 69.85 223.52 0)
@@ -16405,7 +16405,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "#PWR061") (unit 1)
+          (reference "#PWR0308") (unit 1)
         )
       )
     )
@@ -16414,7 +16414,7 @@
   (symbol (lib_id ".mounted-lib:C_0805_10uF_10V_X7R_10%") (at 194.31 254 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 326c28dd-1f22-4f04-940d-0608ad9ad93e)
-    (property "Reference" "C28" (at 196.85 252.7363 0)
+    (property "Reference" "C?" (at 196.85 252.7363 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C_0805_10uF_10V_X7R_10%" (at 210.82 237.49 0)
@@ -16482,10 +16482,10 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1"
-          (reference "C28") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "C32") (unit 1)
+          (reference "C311") (unit 1)
         )
       )
     )
@@ -16494,7 +16494,7 @@
   (symbol (lib_id ".mounted-lib:R_0603_100k_1%_0.1W") (at 284.48 210.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3398bcf5-6765-4f07-b86b-4fdae6cbd8ef)
-    (property "Reference" "R7" (at 287.02 209.55 0)
+    (property "Reference" "R311" (at 287.02 209.55 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R_0603_100k_1%_0.1W" (at 300.99 194.31 0)
@@ -16559,7 +16559,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "R7") (unit 1)
+          (reference "R311") (unit 1)
         )
       )
     )
@@ -16568,7 +16568,7 @@
   (symbol (lib_id "power:VBUS") (at 66.04 176.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 34307672-49a9-4755-af2c-d8f4a71741d2)
-    (property "Reference" "#PWR075" (at 66.04 180.34 0)
+    (property "Reference" "#PWR?" (at 66.04 180.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 66.04 171.45 0)
@@ -16584,10 +16584,10 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/a7e357a9-82a1-4b8d-acf0-65ce824c3be5"
-          (reference "#PWR075") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "#PWR080") (unit 1)
+          (reference "#PWR0306") (unit 1)
         )
       )
     )
@@ -16596,7 +16596,7 @@
   (symbol (lib_id ".mounted-lib:R_0603_42.2k_1%_0.1W") (at 321.31 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 38ccaecb-cd4e-41e2-80e2-ad2a631a0694)
-    (property "Reference" "R4" (at 323.85 146.05 0)
+    (property "Reference" "R?" (at 323.85 146.05 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R_0603_42.2k_1%_0.1W" (at 337.82 130.81 0)
@@ -16661,10 +16661,10 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/a5fd713b-0eff-4c6e-9443-f8836b4c4660"
-          (reference "R4") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "R4") (unit 1)
+          (reference "R316") (unit 1)
         )
       )
     )
@@ -16673,7 +16673,7 @@
   (symbol (lib_id "power:GND") (at 85.09 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 44803b32-1e70-4018-b6d5-558168380afa)
-    (property "Reference" "#PWR029" (at 85.09 63.5 0)
+    (property "Reference" "#PWR?" (at 85.09 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 85.09 62.23 0)
@@ -16689,10 +16689,10 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/a5fd713b-0eff-4c6e-9443-f8836b4c4660"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR0310") (unit 1)
         )
       )
     )
@@ -16701,7 +16701,7 @@
   (symbol (lib_id ".mounted-lib:SOLDER_JUMPER_3PIN_NC") (at 96.52 209.55 90) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 45dd7d80-4079-40ac-9564-0fcf2a3f5ce9)
-    (property "Reference" "SJ1" (at 101.6 207.01 90)
+    (property "Reference" "SJ301" (at 101.6 207.01 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SOLDER_JUMPER_3PIN_NC" (at 83.82 168.91 0)
@@ -16767,7 +16767,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "SJ1") (unit 1)
+          (reference "SJ301") (unit 1)
         )
       )
     )
@@ -16776,7 +16776,7 @@
   (symbol (lib_id "power:GND") (at 321.31 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4749808f-babb-4b88-bd26-0321872fc461)
-    (property "Reference" "#PWR035" (at 321.31 161.29 0)
+    (property "Reference" "#PWR?" (at 321.31 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 321.31 160.02 0)
@@ -16792,10 +16792,10 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/a5fd713b-0eff-4c6e-9443-f8836b4c4660"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR0341") (unit 1)
         )
       )
     )
@@ -16804,7 +16804,7 @@
   (symbol (lib_id ".mounted-lib:C_0805_2.2uF_25V_X7R_20%") (at 85.09 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 47af031e-cd9a-4d47-a36a-31ca53b13fe0)
-    (property "Reference" "C18" (at 87.63 46.9963 0)
+    (property "Reference" "C?" (at 87.63 46.9963 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C_0805_2.2uF_25V_X7R_20%" (at 101.6 31.75 0)
@@ -16872,10 +16872,10 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/a5fd713b-0eff-4c6e-9443-f8836b4c4660"
-          (reference "C18") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "C27") (unit 1)
+          (reference "C304") (unit 1)
         )
       )
     )
@@ -16884,7 +16884,7 @@
   (symbol (lib_id ".mounted-lib:C_0805_1uF_100V_X7S_20%") (at 274.32 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4e56e194-51d3-4864-a6e1-c79f5809922a)
-    (property "Reference" "C25" (at 280.67 142.24 0)
+    (property "Reference" "C?" (at 280.67 142.24 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C_0805_1uF_100V_X7S_20%" (at 290.83 127 0)
@@ -16952,10 +16952,10 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/a5fd713b-0eff-4c6e-9443-f8836b4c4660"
-          (reference "C25") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "C18") (unit 1)
+          (reference "C315") (unit 1)
         )
       )
     )
@@ -16964,7 +16964,7 @@
   (symbol (lib_id "power:GND") (at 170.18 269.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 53a1228f-7815-459a-99cc-db6b09beded4)
-    (property "Reference" "#PWR042" (at 170.18 275.59 0)
+    (property "Reference" "#PWR?" (at 170.18 275.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 170.18 274.32 0)
@@ -16980,10 +16980,10 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR0327") (unit 1)
         )
       )
     )
@@ -16992,7 +16992,7 @@
   (symbol (lib_id "power:GND") (at 313.69 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 543ef411-a69c-438f-b039-f67b981ba171)
-    (property "Reference" "#PWR037" (at 313.69 161.29 0)
+    (property "Reference" "#PWR?" (at 313.69 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 313.69 160.02 0)
@@ -17008,10 +17008,10 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/a5fd713b-0eff-4c6e-9443-f8836b4c4660"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR0339") (unit 1)
         )
       )
     )
@@ -17020,7 +17020,7 @@
   (symbol (lib_name "R_0603_0R_1%_0.1W_1") (lib_id ".mounted-lib:R_0603_0R_1%_0.1W") (at 135.89 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 56193912-0fb9-4a87-98a0-36a2605fa9f5)
-    (property "Reference" "R22" (at 138.43 55.88 0)
+    (property "Reference" "R307" (at 138.43 55.88 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R_0603_0R_1%_0.1W" (at 152.4 40.64 0)
@@ -17085,7 +17085,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "R22") (unit 1)
+          (reference "R307") (unit 1)
         )
       )
     )
@@ -17094,7 +17094,7 @@
   (symbol (lib_id "power:GND") (at 30.48 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5a835206-11fe-419b-9f6a-615f98268b48)
-    (property "Reference" "#PWR028" (at 30.48 63.5 0)
+    (property "Reference" "#PWR?" (at 30.48 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 30.48 62.23 0)
@@ -17110,10 +17110,10 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/a5fd713b-0eff-4c6e-9443-f8836b4c4660"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR0302") (unit 1)
         )
       )
     )
@@ -17122,7 +17122,7 @@
   (symbol (lib_id "power:GND") (at 158.75 218.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5f74c522-14e3-48e3-bf16-371894e5d051)
-    (property "Reference" "#PWR054" (at 158.75 224.79 0)
+    (property "Reference" "#PWR0325" (at 158.75 224.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 158.75 223.52 0)
@@ -17138,7 +17138,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "#PWR054") (unit 1)
+          (reference "#PWR0325") (unit 1)
         )
       )
     )
@@ -17147,7 +17147,7 @@
   (symbol (lib_id ".mounted-lib:R_0603_5.23k_1%_0.1W") (at 158.75 205.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 62d190c3-3928-4e67-9af5-90fc4e19640a)
-    (property "Reference" "R16" (at 161.29 204.47 0)
+    (property "Reference" "R308" (at 161.29 204.47 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R_0603_5.23k_1%_0.1W" (at 175.26 189.23 0)
@@ -17212,7 +17212,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "R16") (unit 1)
+          (reference "R308") (unit 1)
         )
       )
     )
@@ -17221,7 +17221,7 @@
   (symbol (lib_id "power:GND") (at 82.55 218.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 67990315-6f9d-49d5-99df-7cab2b10d22e)
-    (property "Reference" "#PWR064" (at 82.55 224.79 0)
+    (property "Reference" "#PWR0309" (at 82.55 224.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 82.55 223.52 0)
@@ -17237,7 +17237,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "#PWR064") (unit 1)
+          (reference "#PWR0309") (unit 1)
         )
       )
     )
@@ -17246,7 +17246,7 @@
   (symbol (lib_id ".mounted-lib:C_0805_2.2uF_25V_X7R_20%") (at 30.48 48.26 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6eb60e1d-7d5e-4ef2-aae2-8b3cce36efbb)
-    (property "Reference" "C19" (at 27.94 46.9963 0)
+    (property "Reference" "C?" (at 27.94 46.9963 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C_0805_2.2uF_25V_X7R_20%" (at 13.97 31.75 0)
@@ -17314,10 +17314,10 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/a5fd713b-0eff-4c6e-9443-f8836b4c4660"
-          (reference "C19") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "C20") (unit 1)
+          (reference "C301") (unit 1)
         )
       )
     )
@@ -17326,7 +17326,7 @@
   (symbol (lib_id ".mounted-lib:C_0805_10uF_10V_X7R_10%") (at 196.85 181.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7174069a-feba-4944-a0d9-8cb6b7d84ded)
-    (property "Reference" "C36" (at 199.39 180.3463 0)
+    (property "Reference" "C312" (at 199.39 180.3463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C_0805_10uF_10V_X7R_10%" (at 213.36 165.1 0)
@@ -17394,7 +17394,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "C36") (unit 1)
+          (reference "C312") (unit 1)
         )
       )
     )
@@ -17403,7 +17403,7 @@
   (symbol (lib_id ".mounted-lib:L_TFM252012ALMA1R0MTAA") (at 177.8 176.53 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 723ad2c0-f2a2-4c25-a9aa-52c3bc112bae)
-    (property "Reference" "L3" (at 177.8 171.45 90)
+    (property "Reference" "L302" (at 177.8 171.45 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "L_TFM252012ALMA1R0MTAA" (at 159.385 160.02 0)
@@ -17468,7 +17468,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "L3") (unit 1)
+          (reference "L302") (unit 1)
         )
       )
     )
@@ -17477,7 +17477,7 @@
   (symbol (lib_id ".mounted-lib:Q_HSS2P10") (at 135.89 44.45 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7a619887-c464-45f3-abe1-71016760f911)
-    (property "Reference" "Q6" (at 135.89 35.56 90)
+    (property "Reference" "Q302" (at 135.89 35.56 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Q_HSS2P10" (at 148.59 3.81 0)
@@ -17555,7 +17555,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "Q6") (unit 1)
+          (reference "Q302") (unit 1)
         )
       )
     )
@@ -17564,7 +17564,7 @@
   (symbol (lib_id ".mounted-lib:C_0805_10uF_10V_X7R_10%") (at 207.01 181.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7a8022f3-5558-492f-be1f-b470e791e66d)
-    (property "Reference" "C37" (at 209.55 180.3463 0)
+    (property "Reference" "C314" (at 209.55 180.3463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C_0805_10uF_10V_X7R_10%" (at 223.52 165.1 0)
@@ -17632,7 +17632,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "C37") (unit 1)
+          (reference "C314") (unit 1)
         )
       )
     )
@@ -17641,7 +17641,7 @@
   (symbol (lib_id ".mounted-lib:Q_BSS123WQ-7-F") (at 133.35 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7ac36748-11bd-4ceb-bb4e-d9512d91c6e5)
-    (property "Reference" "Q4" (at 139.7 66.04 0)
+    (property "Reference" "Q301" (at 139.7 66.04 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Q_BSS123WQ-7-F" (at 148.59 57.15 0)
@@ -17719,7 +17719,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "Q4") (unit 1)
+          (reference "Q301") (unit 1)
         )
       )
     )
@@ -17728,7 +17728,7 @@
   (symbol (lib_id ".mounted-lib:R_0603_100k_1%_0.1W") (at 300.99 181.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7f171154-cb58-468c-8426-bc8e75abbc8b)
-    (property "Reference" "R9" (at 294.64 180.34 0)
+    (property "Reference" "R312" (at 294.64 180.34 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R_0603_100k_1%_0.1W" (at 317.5 165.1 0)
@@ -17793,7 +17793,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "R9") (unit 1)
+          (reference "R312") (unit 1)
         )
       )
     )
@@ -17802,7 +17802,7 @@
   (symbol (lib_id "power:GND") (at 337.82 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 82662881-5243-4e14-9369-988b0015ac22)
-    (property "Reference" "#PWR031" (at 337.82 161.29 0)
+    (property "Reference" "#PWR?" (at 337.82 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 337.82 160.02 0)
@@ -17818,10 +17818,10 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/a5fd713b-0eff-4c6e-9443-f8836b4c4660"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR0343") (unit 1)
         )
       )
     )
@@ -17830,7 +17830,7 @@
   (symbol (lib_id "power:GND") (at 137.16 218.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8777c8e6-c640-4a40-a41f-0c7e4e4d319c)
-    (property "Reference" "#PWR091" (at 137.16 224.79 0)
+    (property "Reference" "#PWR0322" (at 137.16 224.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 137.16 223.52 0)
@@ -17846,7 +17846,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "#PWR091") (unit 1)
+          (reference "#PWR0322") (unit 1)
         )
       )
     )
@@ -17855,7 +17855,7 @@
   (symbol (lib_id ".mounted-lib:C_0603_100nF_100V_X7R_10%") (at 104.14 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8b8d666b-fb75-43d1-8c86-40fd8e3eecaf)
-    (property "Reference" "C43" (at 106.68 120.6563 0)
+    (property "Reference" "C305" (at 106.68 120.6563 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C_0603_100nF_100V_X7R_10%" (at 120.65 105.41 0)
@@ -17923,7 +17923,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "C43") (unit 1)
+          (reference "C305") (unit 1)
         )
       )
     )
@@ -17932,7 +17932,7 @@
   (symbol (lib_id "power:GND") (at 207.01 218.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8cdcb107-9b93-4583-b8ee-abca38130fec)
-    (property "Reference" "#PWR066" (at 207.01 224.79 0)
+    (property "Reference" "#PWR0332" (at 207.01 224.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 207.01 223.52 0)
@@ -17948,7 +17948,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "#PWR066") (unit 1)
+          (reference "#PWR0332") (unit 1)
         )
       )
     )
@@ -17957,7 +17957,7 @@
   (symbol (lib_id ".mounted-lib:SOLDER_JUMPER_3PIN_NC") (at 116.84 209.55 90) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 8edb2112-be44-4a60-8a05-c276f396ffac)
-    (property "Reference" "SJ2" (at 121.92 207.01 90)
+    (property "Reference" "SJ302" (at 121.92 207.01 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SOLDER_JUMPER_3PIN_NC" (at 104.14 168.91 0)
@@ -18023,7 +18023,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "SJ2") (unit 1)
+          (reference "SJ302") (unit 1)
         )
       )
     )
@@ -18032,7 +18032,7 @@
   (symbol (lib_id "power:GND") (at 53.34 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8f6aacc6-b2f2-4bfa-abf1-6293f73fd440)
-    (property "Reference" "#PWR068" (at 53.34 140.97 0)
+    (property "Reference" "#PWR0304" (at 53.34 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 53.34 139.7 0)
@@ -18048,7 +18048,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "#PWR068") (unit 1)
+          (reference "#PWR0304") (unit 1)
         )
       )
     )
@@ -18057,7 +18057,7 @@
   (symbol (lib_id ".mounted-lib:C_1206_10uF_25V_X7R_10%") (at 337.82 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 91d6e16b-c543-4684-b12b-0e8de217555e)
-    (property "Reference" "C22" (at 347.98 143.51 0)
+    (property "Reference" "C?" (at 347.98 143.51 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C_1206_10uF_25V_X7R_10%" (at 354.33 126.365 0)
@@ -18125,10 +18125,10 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/a5fd713b-0eff-4c6e-9443-f8836b4c4660"
-          (reference "C22") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "C25") (unit 1)
+          (reference "C321") (unit 1)
         )
       )
     )
@@ -18137,7 +18137,7 @@
   (symbol (lib_id ".mounted-lib:R_0603_316R_0.5%_0.1W") (at 82.55 193.04 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 97311bae-529f-4fba-b226-b72c87d3bd2a)
-    (property "Reference" "R19" (at 86.36 191.77 0)
+    (property "Reference" "R301" (at 86.36 191.77 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R_0603_316R_0.5%_0.1W" (at 66.04 209.55 0)
@@ -18202,7 +18202,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "R19") (unit 1)
+          (reference "R301") (unit 1)
         )
       )
     )
@@ -18211,7 +18211,7 @@
   (symbol (lib_id "power:GND") (at 102.87 218.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 973f42ea-440b-42e2-8caf-b3140aef4d36)
-    (property "Reference" "#PWR062" (at 102.87 224.79 0)
+    (property "Reference" "#PWR0315" (at 102.87 224.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 102.87 223.52 0)
@@ -18227,7 +18227,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "#PWR062") (unit 1)
+          (reference "#PWR0315") (unit 1)
         )
       )
     )
@@ -18236,7 +18236,7 @@
   (symbol (lib_id ".mounted-lib:TESTPOINT_1.5MM") (at 146.05 115.57 180) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9d30cbd1-d2c1-44f4-8900-9db11a9bf9ea)
-    (property "Reference" "TP4" (at 148.59 114.3 0)
+    (property "Reference" "TP301" (at 148.59 114.3 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "TESTPOINT_1.5MM" (at 127 115.57 0)
@@ -18264,7 +18264,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "TP4") (unit 1)
+          (reference "TP301") (unit 1)
         )
       )
     )
@@ -18273,7 +18273,7 @@
   (symbol (lib_id ".mounted-lib:U_TPS61087DRCR") (at 303.53 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9e9b7d07-4a76-49a2-944f-939eaa8fd660)
-    (property "Reference" "U8" (at 303.53 125.73 0)
+    (property "Reference" "U?" (at 303.53 125.73 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "U_TPS61087DRCR" (at 344.17 127 0)
@@ -18347,10 +18347,10 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/a5fd713b-0eff-4c6e-9443-f8836b4c4660"
-          (reference "U8") (unit 1)
+          (reference "U?") (unit 1)
         )
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "U7") (unit 1)
+          (reference "U305") (unit 1)
         )
       )
     )
@@ -18359,7 +18359,7 @@
   (symbol (lib_id "power:+3.3V") (at 22.86 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a1ca6e13-285c-472a-a097-f9a18a68d4ad)
-    (property "Reference" "#PWR027" (at 22.86 44.45 0)
+    (property "Reference" "#PWR?" (at 22.86 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 22.86 35.56 0)
@@ -18375,10 +18375,10 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/a5fd713b-0eff-4c6e-9443-f8836b4c4660"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR0301") (unit 1)
         )
       )
     )
@@ -18387,7 +18387,7 @@
   (symbol (lib_id ".mounted-lib:U_BQ24296MRGER") (at 137.16 191.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a580da29-57ea-45e6-8af1-28ca6de72b6e)
-    (property "Reference" "U2" (at 137.16 168.91 0)
+    (property "Reference" "U303" (at 137.16 168.91 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "U_BQ24296MRGER" (at 165.1 175.895 0)
@@ -18475,7 +18475,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "U2") (unit 1)
+          (reference "U303") (unit 1)
         )
       )
     )
@@ -18484,7 +18484,7 @@
   (symbol (lib_id ".mounted-lib:C_1206_10uF_25V_X7R_10%") (at 337.82 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a6242d0f-a490-4428-9d0c-f2ff3959e973)
-    (property "Reference" "C21" (at 344.17 143.51 0)
+    (property "Reference" "C?" (at 344.17 143.51 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C_1206_10uF_25V_X7R_10%" (at 354.33 126.365 0)
@@ -18552,10 +18552,10 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/a5fd713b-0eff-4c6e-9443-f8836b4c4660"
-          (reference "C21") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "C26") (unit 1)
+          (reference "C322") (unit 1)
         )
       )
     )
@@ -18564,7 +18564,7 @@
   (symbol (lib_id ".mounted-lib:C_0805_10uF_10V_X7R_10%") (at 204.47 254 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a6cfb935-e47b-4b0f-b093-36237cb316d4)
-    (property "Reference" "C31" (at 207.01 252.7363 0)
+    (property "Reference" "C?" (at 207.01 252.7363 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C_0805_10uF_10V_X7R_10%" (at 220.98 237.49 0)
@@ -18632,10 +18632,10 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1"
-          (reference "C31") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "C33") (unit 1)
+          (reference "C313") (unit 1)
         )
       )
     )
@@ -18644,7 +18644,7 @@
   (symbol (lib_id "power:+3.3V") (at 284.48 208.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a7a42bf9-12a9-4b14-9769-33329344ba58)
-    (property "Reference" "#PWR047" (at 284.48 212.09 0)
+    (property "Reference" "#PWR?" (at 284.48 212.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 284.48 203.2 0)
@@ -18660,10 +18660,10 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "#PWR050") (unit 1)
+          (reference "#PWR0335") (unit 1)
         )
       )
     )
@@ -18672,7 +18672,7 @@
   (symbol (lib_id "power:+10V") (at 344.17 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a87712df-de91-4c18-be06-1dbad7abe0b6)
-    (property "Reference" "#PWR075" (at 344.17 138.43 0)
+    (property "Reference" "#PWR?" (at 344.17 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+10V" (at 344.17 129.54 0)
@@ -18688,10 +18688,10 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/a5fd713b-0eff-4c6e-9443-f8836b4c4660"
-          (reference "#PWR075") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "#PWR073") (unit 1)
+          (reference "#PWR0344") (unit 1)
         )
       )
     )
@@ -18700,7 +18700,7 @@
   (symbol (lib_id "power:GND") (at 318.77 212.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aa0b7dc0-20b5-47b1-bbc7-46c8403d2253)
-    (property "Reference" "#PWR049" (at 318.77 218.44 0)
+    (property "Reference" "#PWR0340" (at 318.77 218.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 318.77 217.17 0)
@@ -18716,12 +18716,12 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR0340") (unit 1)
         )
       )
       (project "prototype"
         (path "/d09addc5-2e9b-49ac-8978-698ca395ad74"
-          (reference "#PWR0105") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -18730,7 +18730,7 @@
   (symbol (lib_id "power:+1V8") (at 118.11 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aae1a8a9-7f71-4a8d-b7a3-2dc6552f4113)
-    (property "Reference" "#PWR073" (at 118.11 45.72 0)
+    (property "Reference" "#PWR?" (at 118.11 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 118.11 36.83 0)
@@ -18746,10 +18746,10 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/a5fd713b-0eff-4c6e-9443-f8836b4c4660"
-          (reference "#PWR073") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR0318") (unit 1)
         )
       )
     )
@@ -18758,7 +18758,7 @@
   (symbol (lib_id "power:GND") (at 116.84 218.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b1418637-d4b0-437e-b0f4-0f20456b6f3f)
-    (property "Reference" "#PWR056" (at 116.84 224.79 0)
+    (property "Reference" "#PWR0317" (at 116.84 224.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 116.84 223.52 0)
@@ -18774,7 +18774,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "#PWR056") (unit 1)
+          (reference "#PWR0317") (unit 1)
         )
       )
     )
@@ -18783,7 +18783,7 @@
   (symbol (lib_id ".mounted-lib:D_SRV05-4") (at 35.56 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b4fae583-addb-48a7-aa13-21bda3d08805)
-    (property "Reference" "D5" (at 37.7541 106.68 0)
+    (property "Reference" "D301" (at 37.7541 106.68 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "D_SRV05-4" (at 76.2 109.22 0)
@@ -18852,7 +18852,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "D5") (unit 1)
+          (reference "D301") (unit 1)
         )
       )
     )
@@ -18861,7 +18861,7 @@
   (symbol (lib_id "power:GND") (at 143.51 269.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b70e19de-97f5-4cf1-afa8-9c54ec34c398)
-    (property "Reference" "#PWR043" (at 143.51 275.59 0)
+    (property "Reference" "#PWR?" (at 143.51 275.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 143.51 274.32 0)
@@ -18877,10 +18877,10 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR0323") (unit 1)
         )
       )
     )
@@ -18889,7 +18889,7 @@
   (symbol (lib_id ".mounted-lib:R_0603_10k_1%_0.1W") (at 110.49 189.23 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b7c70abc-b0d0-44eb-a4fe-ec1feec75c28)
-    (property "Reference" "R18" (at 110.49 191.77 90)
+    (property "Reference" "R304" (at 110.49 191.77 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R_0603_10k_1%_0.1W" (at 127 172.72 0)
@@ -18954,7 +18954,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "R18") (unit 1)
+          (reference "R304") (unit 1)
         )
       )
     )
@@ -18963,7 +18963,7 @@
   (symbol (lib_id ".mounted-lib:C_0805_10uF_10V_X7R_10%") (at 69.85 193.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ba3c3e0e-06dd-455f-98d2-046cd1ae3b52)
-    (property "Reference" "C41" (at 72.39 191.7763 0)
+    (property "Reference" "C303" (at 72.39 191.7763 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C_0805_10uF_10V_X7R_10%" (at 86.36 176.53 0)
@@ -19031,7 +19031,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "C41") (unit 1)
+          (reference "C303") (unit 1)
         )
       )
     )
@@ -19040,7 +19040,7 @@
   (symbol (lib_id ".mounted-lib:C_0603_4.7uF_16V_X7R_10%") (at 187.96 187.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bbab43c9-44e6-45cc-afd6-94c3e260789b)
-    (property "Reference" "C39" (at 190.5 186.6963 0)
+    (property "Reference" "C310" (at 190.5 186.6963 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C_0603_4.7uF_16V_X7R_10%" (at 204.47 171.45 0)
@@ -19108,7 +19108,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "C39") (unit 1)
+          (reference "C310") (unit 1)
         )
       )
     )
@@ -19117,7 +19117,7 @@
   (symbol (lib_id ".mounted-lib:C_0603_47nF_100V_X7R_10%_1") (at 157.48 179.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bca99958-e031-4f95-95eb-ac80d7f48fd5)
-    (property "Reference" "C38" (at 160.02 177.8063 0)
+    (property "Reference" "C308" (at 160.02 177.8063 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C_0603_47nF_100V_X7R_10%" (at 173.99 162.56 0)
@@ -19185,7 +19185,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "C38") (unit 1)
+          (reference "C308") (unit 1)
         )
       )
     )
@@ -19194,7 +19194,7 @@
   (symbol (lib_id "power:+3.3V") (at 104.14 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bcf665ed-2688-4a5e-8a4a-39efea3f0ca2)
-    (property "Reference" "#PWR058" (at 104.14 189.23 0)
+    (property "Reference" "#PWR0316" (at 104.14 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 104.14 182.88 0)
@@ -19210,7 +19210,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "#PWR058") (unit 1)
+          (reference "#PWR0316") (unit 1)
         )
       )
     )
@@ -19219,7 +19219,7 @@
   (symbol (lib_id ".mounted-lib:U_LP3987H-18B5F") (at 66.04 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bfa805c4-0893-4e43-8e43-2dba0eda77c7)
-    (property "Reference" "U7" (at 66.04 33.02 0)
+    (property "Reference" "U?" (at 66.04 33.02 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "U_LP3987H-18B5F" (at 106.68 33.02 0)
@@ -19287,10 +19287,10 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/a5fd713b-0eff-4c6e-9443-f8836b4c4660"
-          (reference "U7") (unit 1)
+          (reference "U?") (unit 1)
         )
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "U8") (unit 1)
+          (reference "U301") (unit 1)
         )
       )
     )
@@ -19299,7 +19299,7 @@
   (symbol (lib_id "power:GND") (at 330.2 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c1a2b80d-3067-4d87-8b97-00203ccbbb7c)
-    (property "Reference" "#PWR036" (at 330.2 161.29 0)
+    (property "Reference" "#PWR?" (at 330.2 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 330.2 160.02 0)
@@ -19315,10 +19315,10 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/a5fd713b-0eff-4c6e-9443-f8836b4c4660"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR0342") (unit 1)
         )
       )
     )
@@ -19327,7 +19327,7 @@
   (symbol (lib_name "R_0603_1M_1%_0.1W_1") (lib_id ".mounted-lib:R_0603_1M_1%_0.1W") (at 123.19 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c2ff4349-b0e4-4997-8878-1b22c05660bc)
-    (property "Reference" "R11" (at 125.73 69.85 0)
+    (property "Reference" "R305" (at 125.73 69.85 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R_0603_1M_1%_0.1W" (at 139.7 54.61 0)
@@ -19392,7 +19392,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "R11") (unit 1)
+          (reference "R305") (unit 1)
         )
       )
     )
@@ -19401,7 +19401,7 @@
   (symbol (lib_id "power:GND") (at 132.08 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c419691d-db7a-4a6d-9ef9-b7b7b09c54e4)
-    (property "Reference" "#PWR069" (at 132.08 137.16 0)
+    (property "Reference" "#PWR0319" (at 132.08 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 132.08 135.89 0)
@@ -19417,7 +19417,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "#PWR069") (unit 1)
+          (reference "#PWR0319") (unit 1)
         )
       )
     )
@@ -19426,7 +19426,7 @@
   (symbol (lib_name "R_0603_1M_1%_0.1W_1") (lib_id ".mounted-lib:R_0603_1M_1%_0.1W") (at 306.07 205.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c52904c8-3141-4fbc-9779-3610d01e5ec1)
-    (property "Reference" "R13" (at 308.61 204.47 0)
+    (property "Reference" "R313" (at 308.61 204.47 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R_0603_1M_1%_0.1W" (at 322.58 189.23 0)
@@ -19491,7 +19491,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "R13") (unit 1)
+          (reference "R313") (unit 1)
         )
       )
     )
@@ -19500,7 +19500,7 @@
   (symbol (lib_id "power:GND") (at 194.31 269.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c7dc2413-beef-4904-9a1b-43ec69aad2a5)
-    (property "Reference" "#PWR045" (at 194.31 275.59 0)
+    (property "Reference" "#PWR?" (at 194.31 275.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 194.31 274.32 0)
@@ -19516,10 +19516,10 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR0329") (unit 1)
         )
       )
     )
@@ -19528,7 +19528,7 @@
   (symbol (lib_id ".mounted-lib:R_0603_10k_1%_0.1W") (at 110.49 185.42 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cb23ef07-f8da-42ac-a36a-d50a6bda0337)
-    (property "Reference" "R17" (at 110.49 182.88 90)
+    (property "Reference" "R303" (at 110.49 182.88 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R_0603_10k_1%_0.1W" (at 93.98 168.91 0)
@@ -19593,7 +19593,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "R17") (unit 1)
+          (reference "R303") (unit 1)
         )
       )
     )
@@ -19602,7 +19602,7 @@
   (symbol (lib_id ".mounted-lib:Q_HSS2P10") (at 318.77 179.07 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cd246352-5a9f-4b15-93b9-f3912e35c31d)
-    (property "Reference" "Q3" (at 318.77 170.18 90)
+    (property "Reference" "Q305" (at 318.77 170.18 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Q_HSS2P10" (at 331.47 138.43 0)
@@ -19680,7 +19680,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "Q3") (unit 1)
+          (reference "Q305") (unit 1)
         )
       )
     )
@@ -19689,7 +19689,7 @@
   (symbol (lib_id "power:GND") (at 133.35 269.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d54dcf3e-2d13-49ce-9802-367e8f89468d)
-    (property "Reference" "#PWR044" (at 133.35 275.59 0)
+    (property "Reference" "#PWR?" (at 133.35 275.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 133.35 274.32 0)
@@ -19705,10 +19705,10 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR0320") (unit 1)
         )
       )
     )
@@ -19717,7 +19717,7 @@
   (symbol (lib_id "power:+3.3V") (at 90.17 191.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d6b0388a-2c5f-4e6a-affa-3dcb0226271f)
-    (property "Reference" "#PWR057" (at 90.17 195.58 0)
+    (property "Reference" "#PWR0311" (at 90.17 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 90.17 187.96 0)
@@ -19733,7 +19733,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR0311") (unit 1)
         )
       )
     )
@@ -19742,7 +19742,7 @@
   (symbol (lib_id "power:GND") (at 66.04 218.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d799a528-2f19-41d3-8850-bf0e8e480f55)
-    (property "Reference" "#PWR060" (at 66.04 224.79 0)
+    (property "Reference" "#PWR0307" (at 66.04 224.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 66.04 223.52 0)
@@ -19758,7 +19758,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR0307") (unit 1)
         )
       )
     )
@@ -19767,7 +19767,7 @@
   (symbol (lib_name "D_1SS301_1") (lib_id ".mounted-lib:D_1SS301") (at 294.64 195.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d938d466-245c-4ece-9f79-073f784dbccf)
-    (property "Reference" "D4" (at 293.3065 186.69 0)
+    (property "Reference" "D302" (at 293.3065 186.69 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_1SS301" (at 311.15 179.07 0)
@@ -19833,7 +19833,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "D4") (unit 1)
+          (reference "D302") (unit 1)
         )
       )
     )
@@ -19842,7 +19842,7 @@
   (symbol (lib_id "power:GND") (at 274.32 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dc1516d2-83a6-4ad1-b883-644521db3e9c)
-    (property "Reference" "#PWR034" (at 274.32 161.29 0)
+    (property "Reference" "#PWR?" (at 274.32 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 274.32 160.02 0)
@@ -19858,10 +19858,10 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/a5fd713b-0eff-4c6e-9443-f8836b4c4660"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR0334") (unit 1)
         )
       )
     )
@@ -19870,7 +19870,7 @@
   (symbol (lib_name "R_0603_1M_1%_0.1W_1") (lib_id ".mounted-lib:R_0603_1M_1%_0.1W") (at 367.03 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dd5861da-7303-4c8d-9fa3-6d401e7f1551)
-    (property "Reference" "R8" (at 369.57 154.94 0)
+    (property "Reference" "R319" (at 369.57 154.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R_0603_1M_1%_0.1W" (at 383.54 139.7 0)
@@ -19935,7 +19935,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "R8") (unit 1)
+          (reference "R319") (unit 1)
         )
       )
     )
@@ -19944,7 +19944,7 @@
   (symbol (lib_id "power:GND") (at 284.48 229.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dd771733-82fd-47a2-9549-94c1ffb6909a)
-    (property "Reference" "#PWR048" (at 284.48 236.22 0)
+    (property "Reference" "#PWR0336" (at 284.48 236.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 284.48 234.95 0)
@@ -19960,12 +19960,12 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR0336") (unit 1)
         )
       )
       (project "prototype"
         (path "/d09addc5-2e9b-49ac-8978-698ca395ad74"
-          (reference "#PWR0106") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -19974,7 +19974,7 @@
   (symbol (lib_id ".mounted-lib:C_0603_100nF_100V_X7R_10%") (at 313.69 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid df36d323-dfb9-4241-821d-7a2838274438)
-    (property "Reference" "C26" (at 316.23 151.1363 0)
+    (property "Reference" "C?" (at 316.23 151.1363 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C_0603_100nF_100V_X7R_10%" (at 330.2 135.89 0)
@@ -20042,10 +20042,10 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/a5fd713b-0eff-4c6e-9443-f8836b4c4660"
-          (reference "C26") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "C21") (unit 1)
+          (reference "C317") (unit 1)
         )
       )
     )
@@ -20054,7 +20054,7 @@
   (symbol (lib_id ".mounted-lib:U_TPS63001DRCR") (at 170.18 251.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e01dc322-471b-444c-ad56-4d891bba7fd1)
-    (property "Reference" "U10" (at 170.18 234.95 0)
+    (property "Reference" "U?" (at 170.18 234.95 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "U_TPS63001DRCR" (at 210.82 238.76 0)
@@ -20128,13 +20128,13 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/a5fd713b-0eff-4c6e-9443-f8836b4c4660"
-          (reference "U10") (unit 1)
+          (reference "U?") (unit 1)
         )
         (path "/75b08848-9393-425e-a17d-60105119a7b1"
-          (reference "U10") (unit 1)
+          (reference "U?") (unit 1)
         )
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "U10") (unit 1)
+          (reference "U304") (unit 1)
         )
       )
     )
@@ -20143,7 +20143,7 @@
   (symbol (lib_id ".mounted-lib:R_0603_31.2k_0.5%_0.1W") (at 158.75 213.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e0a03e2a-e493-4dda-bd16-eb729fd6dfca)
-    (property "Reference" "R15" (at 161.29 212.09 0)
+    (property "Reference" "R309" (at 161.29 212.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R_0603_31.2k_0.5%_0.1W" (at 175.26 196.85 0)
@@ -20208,7 +20208,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "R15") (unit 1)
+          (reference "R309") (unit 1)
         )
       )
     )
@@ -20217,7 +20217,7 @@
   (symbol (lib_id "power:GND") (at 187.96 218.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e12a7ddb-a977-42e2-8c39-f64d56099a44)
-    (property "Reference" "#PWR065" (at 187.96 224.79 0)
+    (property "Reference" "#PWR0328" (at 187.96 224.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 187.96 223.52 0)
@@ -20233,7 +20233,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "#PWR065") (unit 1)
+          (reference "#PWR0328") (unit 1)
         )
       )
     )
@@ -20242,7 +20242,7 @@
   (symbol (lib_name "R_0603_0R_1%_0.1W_1") (lib_id ".mounted-lib:R_0603_0R_1%_0.1W") (at 318.77 191.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e153b918-4f52-44ed-8870-76462fd64e8d)
-    (property "Reference" "R12" (at 321.31 190.5 0)
+    (property "Reference" "R315" (at 321.31 190.5 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R_0603_0R_1%_0.1W" (at 335.28 175.26 0)
@@ -20307,7 +20307,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "R12") (unit 1)
+          (reference "R315") (unit 1)
         )
       )
     )
@@ -20316,7 +20316,7 @@
   (symbol (lib_id ".mounted-lib:C_0603_1uF_16V_X7R_10%_1") (at 66.04 193.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e326a920-0923-4c2f-bced-294346eea825)
-    (property "Reference" "C42" (at 59.69 191.77 0)
+    (property "Reference" "C302" (at 59.69 191.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C_0603_1uF_16V_X7R_10%" (at 82.55 176.53 0)
@@ -20384,7 +20384,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "C42") (unit 1)
+          (reference "C302") (unit 1)
         )
       )
     )
@@ -20393,7 +20393,7 @@
   (symbol (lib_id ".mounted-lib:R_0603_26.7k_1%_0.1W") (at 330.2 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e6b4ce6f-d39c-4637-8293-9326b814fcab)
-    (property "Reference" "R6" (at 332.74 146.05 0)
+    (property "Reference" "R?" (at 332.74 146.05 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R_0603_26.7k_1%_0.1W" (at 347.345 128.905 0)
@@ -20458,10 +20458,10 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/a5fd713b-0eff-4c6e-9443-f8836b4c4660"
-          (reference "R6") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "R6") (unit 1)
+          (reference "R318") (unit 1)
         )
       )
     )
@@ -20470,7 +20470,7 @@
   (symbol (lib_id ".mounted-lib:R_0603_100k_1%_0.1W") (at 124.46 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ea9ba88d-669e-4531-afd4-b125f1e6c55a)
-    (property "Reference" "R20" (at 127 45.72 0)
+    (property "Reference" "R306" (at 127 45.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R_0603_100k_1%_0.1W" (at 140.97 30.48 0)
@@ -20535,7 +20535,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "R20") (unit 1)
+          (reference "R306") (unit 1)
         )
       )
     )
@@ -20544,7 +20544,7 @@
   (symbol (lib_id ".mounted-lib:C_0805_1uF_100V_X7S_20%") (at 274.32 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eae301d4-fca7-4654-a317-243c7bad6df4)
-    (property "Reference" "C24" (at 276.86 142.2463 0)
+    (property "Reference" "C?" (at 276.86 142.2463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C_0805_1uF_100V_X7S_20%" (at 290.83 127 0)
@@ -20612,10 +20612,10 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/a5fd713b-0eff-4c6e-9443-f8836b4c4660"
-          (reference "C24") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "C19") (unit 1)
+          (reference "C316") (unit 1)
         )
       )
     )
@@ -20624,7 +20624,7 @@
   (symbol (lib_id "power:GND") (at 35.56 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eae58ff7-feaf-46ba-adaf-d43c47dd84d1)
-    (property "Reference" "#PWR071" (at 35.56 140.97 0)
+    (property "Reference" "#PWR0303" (at 35.56 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 35.56 139.7 0)
@@ -20640,7 +20640,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "#PWR071") (unit 1)
+          (reference "#PWR0303") (unit 1)
         )
       )
     )
@@ -20649,7 +20649,7 @@
   (symbol (lib_id ".mounted-lib:C_0805_10uF_10V_X7R_10%") (at 170.18 194.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eb65b3e9-f9cd-4fd8-85de-23480ad2d0eb)
-    (property "Reference" "C40" (at 172.72 193.0463 0)
+    (property "Reference" "C309" (at 172.72 193.0463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C_0805_10uF_10V_X7R_10%" (at 186.69 177.8 0)
@@ -20717,7 +20717,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "C40") (unit 1)
+          (reference "C309") (unit 1)
         )
       )
     )
@@ -20726,7 +20726,7 @@
   (symbol (lib_id "power:GND") (at 96.52 218.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f229e114-efe2-473c-a8fe-51cd7a3ebb11)
-    (property "Reference" "#PWR063" (at 96.52 224.79 0)
+    (property "Reference" "#PWR0313" (at 96.52 224.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 96.52 223.52 0)
@@ -20742,7 +20742,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "#PWR063") (unit 1)
+          (reference "#PWR0313") (unit 1)
         )
       )
     )
@@ -20751,7 +20751,7 @@
   (symbol (lib_id "power:GND") (at 152.4 218.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f54d1611-91e2-4070-901f-23c028cf0cb9)
-    (property "Reference" "#PWR055" (at 152.4 224.79 0)
+    (property "Reference" "#PWR0324" (at 152.4 224.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 152.4 223.52 0)
@@ -20767,7 +20767,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "#PWR055") (unit 1)
+          (reference "#PWR0324") (unit 1)
         )
       )
     )
@@ -20776,7 +20776,7 @@
   (symbol (lib_id "power:+3.3V") (at 97.79 189.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f7029a77-de7f-43d6-ac4d-d1654455dd7a)
-    (property "Reference" "#PWR059" (at 97.79 193.04 0)
+    (property "Reference" "#PWR0314" (at 97.79 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 97.79 186.69 0)
@@ -20792,7 +20792,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "#PWR059") (unit 1)
+          (reference "#PWR0314") (unit 1)
         )
       )
     )
@@ -20801,7 +20801,7 @@
   (symbol (lib_id ".mounted-lib:L_FNR3015S2R2MT") (at 170.18 232.41 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fc6acd6e-e396-4743-8cbb-2e35da63330d)
-    (property "Reference" "L4" (at 170.18 227.33 90)
+    (property "Reference" "L301" (at 170.18 227.33 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "L_FNR3015S2R2MT" (at 151.765 215.9 0)
@@ -20884,7 +20884,7 @@
     (instances
       (project "AugMounted_DevBoard"
         (path "/75b08848-9393-425e-a17d-60105119a7b1/6b3ccab7-1d72-4b3b-87ab-dbb6a1539255"
-          (reference "L4") (unit 1)
+          (reference "L301") (unit 1)
         )
       )
     )
