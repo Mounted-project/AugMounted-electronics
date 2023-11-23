@@ -522,6 +522,10 @@
     [
       "2b4b9f93-a38b-41c6-bf78-4a8e57625d62",
       "User Input"
+    ],
+    [
+      "4a84ec90-38eb-466a-97d8-784712225cd6",
+      "HMI_BOARD"
     ]
   ],
   "text_variables": {
