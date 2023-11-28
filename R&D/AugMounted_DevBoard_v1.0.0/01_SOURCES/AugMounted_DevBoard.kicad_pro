@@ -56,7 +56,9 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|351578978|17374942|9ce7eba2-1a52-4487-ba2b-8b3245f0be91|ff224458-3cb9-4170-bd8b-be39711169c7"
+      ],
       "meta": {
         "version": 2
       },
@@ -176,6 +178,7 @@
       ],
       "track_widths": [
         0.0,
+        0.1,
         0.2,
         0.5,
         1.0,
@@ -441,6 +444,23 @@
       },
       {
         "bus_width": 12,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -510,7 +530,7 @@
         "pattern": "/MCU/VBUS_USB"
       },
       {
-        "netclass": "PowerSupply",
+        "netclass": "GND",
         "pattern": "GND"
       },
       {
