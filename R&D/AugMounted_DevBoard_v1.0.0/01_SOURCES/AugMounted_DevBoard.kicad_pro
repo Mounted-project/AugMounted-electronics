@@ -56,7 +56,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|152764734|114273359|3c58f570-1950-48fe-98a5-16ffae6108c8|9e9b9651-f3cf-4b1a-8e41-0bab5a8b1892",
+        "clearance|155204363|114375153|5274f5af-6db2-42f1-a30d-d848a449b306|9e9b9651-f3cf-4b1a-8e41-0bab5a8b1892",
+        "clearance|157567590|114465871|4988ec56-9235-4c00-83bf-afe4ea0454a9|9e9b9651-f3cf-4b1a-8e41-0bab5a8b1892",
+        "pth_inside_courtyard|157687987|101918462|cd2a4460-5382-4186-91c8-60d868dc86f9|4bc991e5-2c10-4e04-b4cd-35e66c935d8b",
+        "pth_inside_courtyard|161837989|102694321|8ac80c91-d295-4ede-b6a6-d306bd1e827e|4bc991e5-2c10-4e04-b4cd-35e66c935d8b",
+        "pth_inside_courtyard|163112989|101919321|8f03a455-f6e9-44df-8598-450d5c128f70|4bc991e5-2c10-4e04-b4cd-35e66c935d8b",
+        "pth_inside_courtyard|163112989|103469321|640b331a-45c0-42bc-9087-660c75cd3dac|4bc991e5-2c10-4e04-b4cd-35e66c935d8b",
+        "pth_inside_courtyard|164387989|102694321|c9f92abf-7801-41b1-aab9-f0eb9ca7c0f2|4bc991e5-2c10-4e04-b4cd-35e66c935d8b"
+      ],
       "meta": {
         "version": 2
       },
@@ -131,7 +140,7 @@
         "min_via_diameter": 0.44999999999999996,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
